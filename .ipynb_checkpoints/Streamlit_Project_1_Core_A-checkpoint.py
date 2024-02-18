@@ -29,7 +29,7 @@ st.title("Sales Price Analysis")
 st.header("Product Sales Data")
 st.dataframe(df, width=800)
 
-# Display descriptive statistics button
+# Display Descriptive Statistics button
 st.markdown('#### Descriptive Statistics')
 if st.button('Show Descriptive Statistics'):
     st.dataframe(df.describe().round(2))
